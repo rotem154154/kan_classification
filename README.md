@@ -1,5 +1,7 @@
 # KAN Architectures for Dimensionality-Reduced Image Classification
 
+![alt text](https://github.com/rotem154154/kan_classification/blob/main/optimized_model_performance.png?raw=true "Title")
+
 The new **KAN** architecture showcases promising results on toy tasks, and our goal is to extend its application to real-world challenges. This repository features implementations and experiments with various KAN-based models, all aimed at classifying images using feature vectors extracted from the foundation model DinoV2. We employ neural architecture search (NAS) to finely tune these models, striving to optimize their structure by reducing the number of parameters without compromising performance. Here's a brief overview of our findings:
 
 ## Key Findings
