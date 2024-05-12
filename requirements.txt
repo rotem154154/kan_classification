@@ -1,0 +1,13 @@
+torch
+numpy
+tqdm
+opencv-python
+h5py
+timm
+torchvision
+pytorch-lightning
+torchmetrics
+lovely_tensors
+optuna
+pykan
+tqdm

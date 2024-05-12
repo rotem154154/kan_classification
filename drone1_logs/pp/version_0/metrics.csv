@@ -1,0 +1,5 @@
+val_cross_entropy_step,step,val_acc,epoch,val_cross_entropy_epoch,cross_entropy_epoch
+3.389564657261534,0,,,,
+3.3830839628827323,1,,,,
+,9,0.072021484375,0,3.3863243100721334,
+,9,,0,,3.397281498562342
