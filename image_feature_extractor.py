@@ -14,7 +14,7 @@ import argparse
 # Setup command line arguments
 parser = argparse.ArgumentParser(description="Extract features using a pretrained image model.")
 parser.add_argument('--model_name', type=str, default='vit_large_patch14_dinov2.lvd142m', help='Model name to use for feature extraction.')
-parser.add_argument('--save_path', type=str, required=True, help='Path to save the extracted features.')
+parser.add_argument('--dataset_path', type=str, required=True, help='Path to image dataset')
 args = parser.parse_args()
 
 def get_default_device():
@@ -42,7 +42,7 @@ dino_transforms = transforms.Compose([
 ])
 
 # Setup the dataset and DataLoader
-dataset_path = args.save_path  # Using save_path to find dataset as well
+dataset_path = args.dataset_path  # Using save_path to find dataset as well
 train_dataset = datasets.ImageFolder(os.path.join(dataset_path, 'train'), transform=dino_transforms)
 test_dataset = datasets.ImageFolder(os.path.join(dataset_path, 'test'), transform=dino_transforms)
 
