@@ -1,3 +1,5 @@
+[![Website](https://img.shields.io/badge/Website-Visit%20Site-blue)](https://rotem154154.github.io/)
+
 # KAN Architectures for Dimensionality-Reduced Image Classification
 
 ![alt text](https://github.com/rotem154154/kan_classification/blob/main/optimized_model_performance.png?raw=true "Title")
